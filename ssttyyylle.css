@@ -1,0 +1,59 @@
+body
+{
+  background-color: powderblue;
+}
+h1
+{ color: orange;text-align: center;
+font-size:80px;margin: 0;}
+
+h2
+{ color: dark blue;text-align: center;
+font-size:50px;margin: 0;}
+
+h4
+{
+	font-size: 20px;
+	text-align: center; ;
+}
+ 
+ {
+
+ 	margin: 0;
+ 	padding: 0;
+ 	font-family: sans-serif;
+ } 
+ .container
+ {
+ 	position: relative;
+ 	width: 1200px;
+ 	height: 300px;
+ 	margin: 140px auto;
+ 	background: powderblue;
+ }
+ .container .box
+{
+ position: relative;
+ width: calc(400px - 30px);
+ height: calc(300px - 30px);
+ background: red;
+ float: left; 
+margin: 10px;
+box-sizing: border-box; 
+overflow: hidden;
+border-radius: 10px }
+  .container .box .box
+  {
+  	 position: relative;
+ width: calc(250px);
+ height: calc(50px);
+ background: #BC8F8F;
+ float: right; 
+margin: 0px;
+box-sizing:content-box; 
+overflow: hidden;
+border-radius: 10px 
+  }
+h6
+{
+	font-size:12px;
+}
